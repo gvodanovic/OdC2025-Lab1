@@ -19,6 +19,11 @@ module alu(
     output zero_flag,
     output carry_flag
     );
+    
+    assign a_in_0 = alu_result_0;
+    assign a_in_1 = alu_result_1;
+    assign a_in_2 = alu_result_2;
+    assign a_in_3 = alu_result_3;
        
     //------------------------- AND (000) -------------------------
     
